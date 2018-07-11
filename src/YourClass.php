@@ -12,6 +12,6 @@ class YourClass{
 
    public function __construct()
    {
-       echo "It is common class";
+       echo "It is laravel class";
    }
 }
