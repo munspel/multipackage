@@ -1,0 +1,26 @@
+{
+    "name": "tripup/common",
+    "description": "Test composer packages.",
+    "keywords": ["tripup", "common"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Darwin Biler",
+            "email": "buonzz@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "tripup\\common": "src/"
+        }
+    }
+
+
+}
