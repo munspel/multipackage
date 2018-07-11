@@ -12,6 +12,6 @@ class YourClass{
 
    public function __construct()
    {
-       echo "It is laravel class";
+       echo "It is twig class";
    }
 }
